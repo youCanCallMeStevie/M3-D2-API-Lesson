@@ -101,7 +101,7 @@ window.onload = function () {
        parsedJson.data.forEach(element => {
          console.log(element)
          let album = ` <div class="listed-albums col">
-           <h6>${element.title}</h6>
+           <h6>${element.album.title}</h6>
        </div>`
        albumList.push(album)
        });
